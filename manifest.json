@@ -1,0 +1,23 @@
+{
+    "name": "SUPLEMENTOS-MAIN",
+    "short_name": "SUPLEMENTOS",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#CA3C3F",
+    "description": "Cardapio digital  de suplementos alimentares",
+    "icons": [
+        {
+            "src": "./assets/img/logopwa.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "./assets/img/logopwa512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ]
+}
