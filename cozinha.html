@@ -69,6 +69,15 @@
   <div id="toast" class="fixed bottom-5 right-5 z-40 hidden rounded-3xl bg-white px-5 py-4 shadow-xl border border-gray-200 text-sm text-gray-900"></div>
 
   <script>
+
+    
+        const URL_APO = 'aula-7-vercel-suplementos-x6ki.vercel.app/api'; /* legado */
+
+        /* ═══════════════════════════════════════════════════
+           SUPABASE — busca produtos e categorias direto do banco
+           ═══════════════════════════════════════════════════ */
+        const SUPABASE_URL = "https://dpfdmaqphhzprtyurbgy.supabase.co";
+        const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRwZmRtYXFwaGh6cHJ0eXVyYmd5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU3ODAwMjUsImV4cCI6MjA5MTM1NjAyNX0.rDqDt2aGhDqlJJpjB0x7kLC7ns4b6PSuxLCN5ljK8hU";
     const connectionStatus = document.getElementById('connection-status');
     const refreshButton = document.getElementById('refresh-button');
     const toast = document.getElementById('toast');
@@ -107,6 +116,7 @@
     window.addEventListener('online', updateConnection);
     window.addEventListener('offline', updateConnection);
     updateConnection();
+    
   </script>
 </body>
 </html>
